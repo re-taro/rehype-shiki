@@ -31,7 +31,7 @@
     "fmt": "prettier --write ./**/*.{ts,json}"
   },
   "dependencies": {
-    "@re-taro/html": "^1.0.1",
+    "@re-taro/html": "^1.0.2",
     "hast-util-to-text": "^3.1.1",
     "rehype-parse": "^8.0.4",
     "unified": "^10.1.1",
