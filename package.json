@@ -1,0 +1,53 @@
+{
+  "name": "@re-taro/rehype-shiki",
+  "version": "1.0.0",
+  "description": "Rehype plugin to highlight code blocks with Shiki",
+  "exports": "./distribution/index.js",
+  "types": "./distribution/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re-taro/rehype-shiki.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rintaro Itokawa",
+    "email": "me@re-taro.dev",
+    "url": "https://www.re-taro.dev/"
+  },
+  "keywords": [
+    "shiki",
+    "syntax",
+    "highlight",
+    "rehype"
+  ],
+  "bugs": "https://github.com/re-taro/html/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "prettier --check \"source/**/*\" --end-of-line auto && npm run prepare",
+    "prepare": "tsc",
+    "fmt": "prettier --write ./**/*.{ts,json}"
+  },
+  "dependencies": {
+    "@re-taro/html": "^1.0.1",
+    "hast-util-to-text": "^3.1.1",
+    "rehype-parse": "^8.0.4",
+    "unified": "^10.1.1",
+    "unist-util-modify-children": "^3.0.0"
+  },
+  "peerDependencies": {
+    "shiki": "^0.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "prettier": "^2.5.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "shiki": "^0.10.1",
+    "typescript": "^4.5.5",
+    "unist-util-visit": "^4.1.0"
+  }
+}
