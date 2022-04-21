@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/node": "17.0.18",
-    "prettier": "2.5.1",
+    "prettier": "2.6.2",
     "rehype-stringify": "9.0.3",
     "remark-parse": "10.0.1",
     "remark-rehype": "10.1.0",
