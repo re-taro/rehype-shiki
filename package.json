@@ -12,7 +12,7 @@
   "author": {
     "name": "Rintaro Itokawa",
     "email": "me@re-taro.dev",
-    "url": "https://www.re-taro.dev/"
+    "url": "https://re-taro.dev/"
   },
   "keywords": [
     "shiki",
@@ -31,14 +31,14 @@
     "fmt": "prettier --write ./**/*.{ts,json}"
   },
   "dependencies": {
-    "@re-taro/html": "^1.0.2",
-    "hast-util-to-text": "^3.1.1",
-    "rehype-parse": "^8.0.4",
-    "unified": "^10.1.1",
-    "unist-util-modify-children": "^3.0.0"
+    "@re-taro/html": "1.1.0",
+    "hast-util-to-text": "3.1.1",
+    "rehype-parse": "8.0.4",
+    "unified": "10.1.1",
+    "unist-util-modify-children": "3.0.0"
   },
   "peerDependencies": {
-    "shiki": "^0.10.1"
+    "shiki": "0.10.1"
   },
   "devDependencies": {
     "@types/node": "17.0.18",
